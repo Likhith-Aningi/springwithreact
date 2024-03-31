@@ -22,7 +22,7 @@ public class SpringwithreactApplication {
 	class TestControllerForAPI {
 		@GetMapping("/api/test")
 		public ObjectNode getMethodName() {
-			return JsonNodeFactory.instance.objectNode().put("data", "test data");
+			return JsonNodeFactory.instance.objectNode().put("data", "test data from spring backend to react frontend");
 		}
 	}
 
